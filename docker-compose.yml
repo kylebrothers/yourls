@@ -11,7 +11,7 @@ services:
     expose:
       - 80
     environment:
-      YOURLS_SITE: https://brothersbrothers.com # please adjust to your domain
+      YOURLS_SITE: http://brothersbrothers.com # please adjust to your domain
       YOURLS_USER: kyle # please adjust
       YOURLS_PASS: thisisjustatest # please adjust
       YOURLS_DB_HOST: mysql
